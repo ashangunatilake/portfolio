@@ -1,0 +1,123 @@
+@import '../../vars.css';
+
+.container {
+    margin-top: 56px;
+    color: var(--color-text);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.title {
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+}
+
+.certificates {
+    margin-top: 37px;
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+    align-items: stretch;
+    justify-content: flex-start;
+    gap: 15px;
+    width: 100%;
+}
+
+.certificates::-webkit-scrollbar {
+    display: none;
+}
+
+.certificate {
+    height: fit-content;
+    position: relative;
+}
+
+.certificateContent {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
+    box-shadow: 0 16px 14px 0 #04152d;
+    padding: 18px 24px;
+    max-width: 345px;
+    min-width: 300px;
+    flex-shrink: 0;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+}
+
+.certificateOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.imageContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 26px;
+    position: relative;
+}
+
+.image {
+    width: 100%;
+}
+
+.name {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    width: 100%;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+.Institute {
+    margin-top: 6px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+.certificateBtn {
+    text-decoration: none;
+    background-color: var(--color-secondary);
+    border-radius: 100px;
+    color: var(--color-text);
+    font-size: 20px;
+    font-weight: 600;   
+    padding: 17px 26px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 3;
+  }
+
+  .certificateOverlay:hover .certificateBtn {
+    opacity: 1;
+  }
+  
+  .certificateOverlay:hover {
+    box-shadow: 0 20px 20px 0 #04152d;
+    backdrop-filter: blur(4px);
+  }
+

@@ -1,0 +1,38 @@
+[
+    {
+        "Name": "Google Cloud Platform",
+        "Image": "/skills/googlecloud.png"
+    },
+    {
+        "Name": "Firebase",
+        "Image": "/skills/firebase.png"
+    },
+    {
+        "Name": "Flutter",
+        "Image": "/skills/flutter.png"
+    },
+    {
+        "Name": "Git",
+        "Image": "/skills/git.png"
+    },
+    {
+        "Name": "Github",
+        "Image": "/skills/github.png"
+    },
+    {
+        "Name": "React",
+        "Image": "/skills/react.png"
+    },
+    {
+        "Name": "MySql",
+        "Image": "/skills/mysql.png"
+    },
+    {
+        "Name": "Arduino",
+        "Image": "/skills/arduino.png"
+    },
+    {
+        "Name": "Tensorflow",
+        "Image": "/skills/tensorflow.png"
+    }
+]

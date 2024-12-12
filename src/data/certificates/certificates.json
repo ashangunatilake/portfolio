@@ -1,0 +1,62 @@
+[
+    {
+        "Name": "Advanced Learning Algorithms",
+        "Image": "certifications/coursera.png",
+        "Institute": "DeepLearning.AI, Stanford University",
+        "URL": "https://www.coursera.org/account/accomplishments/verify/KTG8JHZ9ETZW"
+    },
+    {
+        "Name": "Interfacing with the Arduino",
+        "Image": "certifications/coursera.png",
+        "Institute": "University of California, Irvine",
+        "URL": "https://www.coursera.org/account/accomplishments/verify/9HPUVRBV8VMW"
+    },
+    {
+        "Name": "Supervised Machine Learning: Regression and Classification",
+        "Image": "certifications/coursera.png",
+        "Institute": "DeepLearning.AI, Stanford University",
+        "URL": "https://www.coursera.org/account/accomplishments/verify/SUNKRGG3AZ56"
+    },
+    {
+        "Name": "Introduction to the Internet of Things and Embedded Systems",
+        "Image": "certifications/coursera.png",
+        "Institute": "University of California, Irvine",
+        "URL": "https://www.coursera.org/account/accomplishments/verify/LVYXF5XCK4YQ"
+    },
+    {
+        "Name": "The Arduino Platform and C Programming",
+        "Image": "certifications/coursera.png",
+        "Institute": "University of California, Irvine",
+        "URL": "https://www.coursera.org/account/accomplishments/verify/T4269C6K3DME"
+    },
+    {
+        "Name": "Technical Support Fundamentals",
+        "Image": "certifications/coursera.png",
+        "Institute": "Google",
+        "URL": "https://www.coursera.org/account/accomplishments/verify/47ZKHTQK9VH9"
+    },
+    {
+        "Name": "HTML, CSS, and Javascript for Web Developers",
+        "Image": "certifications/coursera.png",
+        "Institute": "Johns Hopkins University",
+        "URL": "https://www.coursera.org/account/accomplishments/verify/FUA43E5KWKUD"
+    },
+    {
+        "Name": "Modern JavaScript: ES6 Basics",
+        "Image": "certifications/coursera.png",
+        "Institute": "Coursera Project Network",
+        "URL": "https://www.coursera.org/account/accomplishments/verify/4CJPZUTP7DFF"
+    },
+    {
+        "Name": "Legacy JavaScript Algorithms and Data Structures",
+        "Image": "certifications/FreeCodeCamp.png",
+        "Institute": "freeCodeCamp",
+        "URL": "https://www.freecodecamp.org/certification/AshanGunatilake/javascript-algorithms-and-data-structures"
+    },
+    {
+        "Name": "Problem Solving (Basic) Certificate",
+        "Image": "certifications/HackerRank.png",
+        "Institute": "HackerRank",
+        "URL": "https://www.hackerrank.com/certificates/cb2ff0da58c9"
+    }
+]

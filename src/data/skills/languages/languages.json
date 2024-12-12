@@ -1,0 +1,34 @@
+[
+    {
+        "Name": "C++",
+        "Image": "skills/c++.png"
+    },
+    {
+        "Name": "Python",
+        "Image": "skills/python.png"
+    },
+    {
+        "Name": "Java",
+        "Image": "skills/java.png"
+    },
+    {
+        "Name": "C",
+        "Image": "skills/c.png"
+    },
+    {
+        "Name": "Javascript",
+        "Image": "skills/javascript.png"
+    },
+    {
+        "Name": "Dart",
+        "Image": "skills/dart.png"
+    },
+    {
+        "Name": "HTML",
+        "Image": "skills/html.png"
+    },
+    {
+        "Name": "CSS",
+        "Image": "skills/css.png"
+    }
+]

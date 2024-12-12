@@ -1,0 +1,131 @@
+@import "../../vars.css";
+
+.container {
+    position: relative;
+    margin-left: 5%;
+    margin-right: 10%;
+    border-radius: 15px;
+    background: rgba(12, 12, 12, 0.60);
+    z-index: 1;
+    padding-top: 55.85px;
+    padding-right: 59px;
+    padding-bottom: 38.23px;
+}
+
+.title {
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    color: var(--color-text);
+    margin-left: 73px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.helloImage {
+    width: 40%
+}
+
+.aboutItems {
+    right: 0;
+    width: 50%;
+    color: var(--color-text);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+}
+
+.aboutItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 20px;
+    list-style: none;
+    padding: 25px;
+    background-image: linear-gradient(
+      90deg,
+      rgba(165, 215, 232, 0.42) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+}
+
+.aboutItem:hover {
+    background-size: 100% 100%;
+}
+
+.aboutItem img {
+    margin-right: 15px;
+}
+
+.aboutItem h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.aboutItem p {
+    font-size: 25px;
+}
+
+.cvBtnItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cvBtn {
+    display: inline-block;
+    border-radius: 100px;
+    background: #0D5E9F;
+    margin-top: 30px;
+    padding: 10px 26px; 
+    text-align: center;
+}
+
+.cvBtn a {
+    text-decoration: none;
+    color: var(--color-text);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 830px) {
+    .container {
+        background-color: transparent;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .helloImage {
+        display: none;
+    }
+
+    .aboutItems {
+        margin-top: 29px;
+    }
+
+    .aboutItem {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .cvBtn {
+        align-self: center;
+    }
+
+}

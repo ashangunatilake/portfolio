@@ -1,0 +1,34 @@
+[
+    {
+        "title": "Sri Lankan Food Calorie Tracker and Suggestion App",
+        "imageSrc": "projects/medifinder.png",
+        "period": "Ongoing",
+        "description": "A mobile application that leverages machine learning to detect Sri Lankan dishes, estimate their calorie content, and provide dietary suggestions.",
+        "skills": ["Python", "Dart", "Flutter", "Image recognition"],
+        "source": ""
+    },
+    {
+        "title": "MediFinder",
+        "imageSrc": "projects/medifinder.png",
+        "period": "May 2024 - Nov 2024",
+        "description": "This is a project made to learn the latest languages by building an app.",
+        "skills": ["Flutter", "Dart",  "Github", "Firebase", "Git"],
+        "source": "https://github.com/ashangunatilake/medifinder"
+    },
+    {
+        "title": "Research Forge",
+        "imageSrc": "projects/researchforge.png",
+        "period": "Oct 2023 - Jan 2024",
+        "description": "This is a project made to learn the latest languages by building an app.",
+        "skills": ["HTML", "CSS", "Github", "Javascript", "Git"],
+        "source": "https://github.com/naminduranathunga/usj_pub/tree/main"
+    },
+    {
+        "title": "Department Management System",
+        "imageSrc": "projects/researchforge.png",
+        "period": "July 2024",
+        "description": "A desktop application developed using Java Swing to manage department and department location data in a database. The application includes features to insert, update, display and delete records for departments and their respective locations.",
+        "skills": ["Java", "Java Swing", "MySql", "JDBC"],
+        "source": "https://github.com/naminduranathunga/usj_pub/tree/main"
+    }
+]
